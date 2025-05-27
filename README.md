@@ -43,6 +43,7 @@ The Streamlit Web App:
 <br/>
 Streamlit extras: https://extras.streamlit.app/?ref=streamlit-io-gallery-favorites
 <br/>
+<br/>
 
 How to run the project:
 * In the command line:
