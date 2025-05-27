@@ -40,7 +40,8 @@ The Streamlit Web App:
    * pickle.load(f) loads the saved model so it can be used to make predictions
 * User Input interface:
    * List of features uses streamlit to let the user enter feature values via form inputs.
- 
+<br/>
+Streamlit extras: https://extras.streamlit.app/?ref=streamlit-io-gallery-favorites
 <br/>
 
 How to run the project:
