@@ -10,8 +10,8 @@ Training and Saving the Model:
 <br/>
 <br/>
 Libraries: <br/>
-* Pandas: for handling data
-* sklearn: for training the model
-* pickle: for saving/loading the model
-* os: ensures the model folder exists
+  * Pandas: for handling data
+  * sklearn: for training the model
+  * pickle: for saving/loading the model
+  * os: ensures the model folder exists
 
