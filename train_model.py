@@ -5,11 +5,11 @@ import pickle
 
 # Small in-code dataset
 data = {
-    'rainfall': [100, 200, 150, 80, 300, 120],
-    'temperature': [25, 30, 27, 22, 35, 24],
-    'soil_ph': [6.5, 7.0, 6.8, 5.5, 7.2, 6.0],
-    'crop_type': [1, 2, 1, 3, 2, 1],  # 1: Rice, 2: Wheat, 3: Maize
-    'stability': [1, 1, 1, 0, 0, 1]   # 1: Stable, 0: Unstable
+    'rainfall': [100, 200, 150, 80, 300, 120, 0],
+    'temperature': [25, 30, 27, 22, 35, 24, 10],
+    'soil_ph': [6.5, 7.0, 6.8, 5.5, 7.2, 6.0, 3.0],
+    'crop_type': [1, 2, 1, 3, 2, 1, 3],  # 1: Parsley, 2: Onion, 3: Garlic
+    'stability': [1, 1, 1, 0, 0, 1, 0]   # 1: Stable, 0: Unstable
 }
 
 df = pd.DataFrame(data)
@@ -30,3 +30,4 @@ with open('model/crop_model.pkl', 'wb') as f:
     pickle.dump(model, f)
 
 print("Model trained and saved successfully.")
+
