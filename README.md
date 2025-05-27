@@ -11,7 +11,7 @@ Training and Saving the Model:
 
 Libraries:
   * Pandas: for handling data
-  * sklearn: for training the model
+  * sklearn: for training the model (https://github.com/scikit-learn/scikit-learn)
   * pickle: for saving/loading the model
   * os: ensures the model folder exists
 
