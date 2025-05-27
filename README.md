@@ -9,7 +9,7 @@ Creating a machine learning model that predicts whether a crop is stable or unst
 Training and Saving the Model:
 <br/>
 <br/>
-Libraries: <br/>
+Libraries:
   * Pandas: for handling data
   * sklearn: for training the model
   * pickle: for saving/loading the model
