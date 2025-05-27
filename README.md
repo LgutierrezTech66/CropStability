@@ -1,2 +1,3 @@
 # CropStability
-ML Model to predict Crop Stability in California
+ML Model to predict Crop Stability for California Onions
+
